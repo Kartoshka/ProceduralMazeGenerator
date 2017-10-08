@@ -1,9 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/grid/MazeManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Maze/Types.cs">
     <Files>
-      <File FileName="Assets/scripts/grid/RecursiveMazeGen.cs" Line="31" Column="2" />
-      <File FileName="Assets/scripts/grid/MazeManager.cs" Line="210" Column="1" />
+      <File FileName="Assets/Scripts/Maze/Types.cs" Line="103" Column="48" />
+      <File FileName="Assets/Scripts/GameLogic/WorldLogic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Maze/MazeManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameLogic/Key.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameLogic/FinalKey.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameLogic/EnableOnEnter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameLogic/UnlockDoor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameLogic/OnTriggerExitDisable.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameLogic/RoomTriggerTrap.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/Maze/RecursiveMazeGen.cs" Line="17" Column="76" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
