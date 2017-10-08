@@ -24,4 +24,7 @@ The maze generation algorithm is based on [an article by Bob Nystrom](http://jou
 
 ## Screenshots
 //TODO
-![img](link)
+![img](https://i.imgur.com/D0bhK5f.png)
+![img](https://i.imgur.com/POZ2sV7.png)
+![img](https://img.itch.zone/aW1hZ2UvMTc5NDU5LzgzODI0NC5wbmc=/original/3pMGvR.png)
+![img](https://img.itch.zone/aW1hZ2UvMTc5NDU5LzgzODI0NS5wbmc=/original/mAe2AI.png)
