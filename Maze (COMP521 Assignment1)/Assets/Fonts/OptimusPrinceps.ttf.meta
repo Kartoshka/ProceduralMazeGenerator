@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 137accd5b226d7e4eba7465237c7f1c8
+timeCreated: 1506565321
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: OptimusPrinceps
+  fontNames:
+  - OptimusPrinceps
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

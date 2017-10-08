@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1913472606909090}
+  m_IsPrefabParent: 1
+--- !u!1 &1913472606909090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4576932544671158}
+  - component: {fileID: 114831981807622716}
+  m_Layer: 0
+  m_Name: Maze
+  m_TagString: terrain
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4576932544671158
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1913472606909090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114831981807622716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1913472606909090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18b6eb70700c44cc8b82e9c3e354bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  regen: 0
+  startPrefab: {fileID: 114805075012293786, guid: d5f95338ca5644d708645f1680653770,
+    type: 2}
+  endPrefab: {fileID: 114805075012293786, guid: 69d9a1087ad7b45c5beed69d38bced5f,
+    type: 2}
+  groundPrefab: {fileID: 114481902703363362, guid: 0e9043a2bc9e04b86b3c94612686a813,
+    type: 2}
+  roomFloorPrefab: {fileID: 114805075012293786, guid: dcfc5865199994613a8cba224a7ae977,
+    type: 2}
+  roomTrigger: {fileID: 114522966352586762, guid: eec882b258ecbdc42b9b83536eefdc21,
+    type: 2}
+  deadEndPrefab: {fileID: 114805075012293786, guid: 099836c5ed343a34cac2c73e1c84fc30,
+    type: 2}
+  wallPrefab: {fileID: 1179713467413230, guid: fd1d4082147d51f4ebc239757dd9b9fd, type: 2}
+  exitPrefab: {fileID: 114514335700523584, guid: 2c96558d9f27148aa9592401127e6c50,
+    type: 2}
+  entryAttachPosition: {fileID: 0}
+  exitCorridor: {fileID: 1892674434766612, guid: 5e4c98965d4abc44aa2df93381292700,
+    type: 2}
+  player: {fileID: 0}
+  enemy: {fileID: 114020690027446648, guid: 109cf880052b54477976d8ff9a77b376, type: 2}
+  keyPrefab: {fileID: 114446215628287342, guid: 124a95751a0ec4d35adc1cda8d31ae89,
+    type: 2}
+  cellSize: 3
+  mazeWidth: 16
+  mazeHeight: 16
+  numOfRooms: 3
+  roomHeight: 4
+  roomWidth: 4
+  initialDeadEnds: 0
+  deadEndsToLeave: 0
